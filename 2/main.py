@@ -1,0 +1,1 @@
+m = [{11, 3, 5}, {2, 17, 87, 32}, {4, 44}, {24, 11, 9, 7, 8}];total_numbers, total_sum, average, combined_set = sum(len(s) for s in m), sum(num for s in m for num in s), sum( num for s in m for num in s) / sum(len(s) for s in m), tuple(set.union(*m));print(total_numbers);print(total_sum);print(average);print(combined_set);
